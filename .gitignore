@@ -1,0 +1,7 @@
+*.exe
+bin
+Debug
+.git
+ipch
+Release
+*.suo

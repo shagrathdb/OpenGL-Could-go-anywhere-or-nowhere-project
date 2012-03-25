@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\PhysicsObj">
+      <UniqueIdentifier>{d7d0cdd6-1115-45a9-b503-a2f7e831c762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PhysicsObj">
+      <UniqueIdentifier>{d629162e-bb25-4113-96a1-5a3ed1b7d138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{b6e12d9b-fa57-47c6-bcfb-43099248c4fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{d3f08baf-a19c-498f-8e1c-456a54a6eb69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{4fdf0ea3-8b8c-45bb-bbf4-9c3154e59afb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{707f0e7d-4db8-4c77-9d52-e9b0f0f199f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{4e8da3ad-cf3c-49cd-87cd-25fb1309f74f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input">
+      <UniqueIdentifier>{268cf621-125d-4577-9bf3-a5e1340fc67d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player">
+      <UniqueIdentifier>{a564b69c-e416-428c-9c91-51dbe4f68b57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{9810976c-b93c-4c7c-9a54-9af05b92e716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Weapons">
+      <UniqueIdentifier>{d1ba4f9e-4239-4454-881e-1405aea01336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Weapons">
+      <UniqueIdentifier>{bb8a74f0-f9b5-4385-bc7e-6c67c58ae9f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\3DModel">
+      <UniqueIdentifier>{d83c2466-1e61-4b7a-8cdc-41acd4f3ffe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CollisionDetection">
+      <UniqueIdentifier>{d66b192a-64b0-4398-b686-b47dfc6848bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CollisionDetection">
+      <UniqueIdentifier>{0b76c9d9-1834-4766-a292-b68aa9a90390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShaderUtilities">
+      <UniqueIdentifier>{28dcb881-9559-4423-aa5b-fc8531ab4383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{1fd3e2d3-0e7e-486a-8a1e-7961042f85e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SOIL">
+      <UniqueIdentifier>{037ac97d-a438-4e04-8a9c-3b35581a7d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\ShaderUtilities">
+      <UniqueIdentifier>{bbddb577-6f63-40db-8aaa-423c8b050b99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model">
+      <UniqueIdentifier>{4f56113f-c48b-4326-a561-ffc6e90dd012}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PhysicsObject\ProjectilePhysicsObj.cpp">
+      <Filter>Source Files\PhysicsObj</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsObject\PhysicsObj.cpp">
+      <Filter>Source Files\PhysicsObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Vec3f.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Vec2f.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Mat4f.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\HMath.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Bindings.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\InputListeners.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\KeysListener.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\MouseListener.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\CmdSys.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Camera.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsObject\PhysicsObjManager.cpp">
+      <Filter>Source Files\PhysicsObj</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapons\WeaponsManager.cpp">
+      <Filter>Source Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapons\ProjectileWeapon.cpp">
+      <Filter>Source Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapons\Weapon.cpp">
+      <Filter>Source Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapons\BallShooter.cpp">
+      <Filter>Source Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapons\RhombicDodecahedronShooter .cpp">
+      <Filter>Source Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionDetection\CollisionHandler.cpp">
+      <Filter>Source Files\CollisionDetection</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionDetection\AABB.cpp">
+      <Filter>Source Files\CollisionDetection</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionDetection\BoundingSphere.cpp">
+      <Filter>Source Files\CollisionDetection</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionDetection\BoundingVolume.cpp">
+      <Filter>Source Files\CollisionDetection</Filter>
+    </ClCompile>
+    <ClCompile Include="soil\image_DXT.c">
+      <Filter>Header Files\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="soil\stb_image_aug.c">
+      <Filter>Header Files\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="soil\image_helper.c">
+      <Filter>Header Files\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="soil\SOIL.c">
+      <Filter>Header Files\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\tokenizer.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="3DeeModel\ModelFactory.cpp">
+      <Filter>Header Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="3DeeModel\texcoord2f.cpp">
+      <Filter>Header Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="3DeeModel\texture.cpp">
+      <Filter>Header Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="3DeeModel\threedeemodel.cpp">
+      <Filter>Header Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="3DeeModel\threedeeobject.cpp">
+      <Filter>Header Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderUtilities\UniformVarFactory\UniformVarFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderUtilities\UniformType\GLSLUniformVariable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderUtilities\UniformType\GLSLUniformVec2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderUtilities\UniformType\GLSLUniformVec3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderUtilities\UniformType\GLSLUniform1f.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderUtilities\ShaderType\GLSLProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderUtilities\ShaderManager\ShaderManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderUtilities\ShaderFactory\ShaderFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderUtilities\ShaderMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3DeeModel\vertex.cpp">
+      <Filter>Header Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderUtilities\UniformType\GLSLUniformUI.cpp">
+      <Filter>Source Files\ShaderUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\ImpVector2.cpp">
+      <Filter>Header Files\Utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PhysicsObject\PhysicsObj.h">
+      <Filter>Header Files\PhysicsObj</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsObject\ProjectilePhysicsObj.h">
+      <Filter>Header Files\PhysicsObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Vec4f.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Vec2f.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Vec3f.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Mat4f.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\HMath.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Camera.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\CmdSys.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\Bindings.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputListeners.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\KeysListener.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\MouseListener.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsObject\PhysicsObjManager.h">
+      <Filter>Header Files\PhysicsObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\Player.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapons\WeaponsManager.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapons\ProjectileWeapon.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapons\Weapon.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapons\BallShooter.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="3DModel\3DModel.h">
+      <Filter>Header Files\3DModel</Filter>
+    </ClInclude>
+    <ClInclude Include="3DModel\Ball.h">
+      <Filter>Header Files\3DModel</Filter>
+    </ClInclude>
+    <ClInclude Include="3DModel\RhombicDodecahedron.h">
+      <Filter>Header Files\3DModel</Filter>
+    </ClInclude>
+    <ClInclude Include="3DModel\SimpleModel.h">
+      <Filter>Header Files\3DModel</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapons\RhombicDodecahedronShooter.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="3DModel\Cuboid.h">
+      <Filter>Header Files\3DModel</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDetection\CollisionHandler.h">
+      <Filter>Header Files\CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDetection\AABB.h">
+      <Filter>Header Files\CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDetection\BoundingSphere .h">
+      <Filter>Header Files\CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDetection\BoundingVolume.h">
+      <Filter>Header Files\CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderUtilities\ExtensionWranglerMode.h">
+      <Filter>Source Files\Core\ShaderUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderUtilities\UniformType\UniformVariableAPI.h">
+      <Filter>Source Files\Core\ShaderUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderUtilities\ShaderType\GLSLProgram.h">
+      <Filter>Source Files\Core\ShaderUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderUtilities\UniformType\GLSLUniform1f.h">
+      <Filter>Source Files\Core\ShaderUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderUtilities\UniformType\GLSLUniformVariable.h">
+      <Filter>Source Files\Core\ShaderUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderUtilities\UniformType\GLSLUniformVec2.h">
+      <Filter>Source Files\Core\ShaderUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderUtilities\UniformType\GLSLUniformVec3.h">
+      <Filter>Source Files\Core\ShaderUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderUtilities\ShaderType\ShaderAPI.h">
+      <Filter>Source Files\Core\ShaderUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderUtilities\ShaderFactory\ShaderFactory.h">
+      <Filter>Source Files\Core\ShaderUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderUtilities\ShaderManager\ShaderManager.h">
+      <Filter>Source Files\Core\ShaderUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderUtilities\UniformVarFactory\UniformVarFactory.h">
+      <Filter>Source Files\Core\ShaderUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="soil\image_DXT.h">
+      <Filter>Header Files\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="soil\stbi_DDS_aug_c.h">
+      <Filter>Header Files\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="soil\image_helper.h">
+      <Filter>Header Files\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="soil\stb_image_aug.h">
+      <Filter>Header Files\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="soil\stbi_DDS_aug.h">
+      <Filter>Header Files\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\texture.h">
+      <Filter>Header Files\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="soil\SOIL.h">
+      <Filter>Header Files\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\tokenizer.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\FlyweightFactory.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="3DeeModel\ModelFactory.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="3DeeModel\texcoord2f.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="3DeeModel\texture.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="3DeeModel\threedeemodel.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="3DeeModel\threedeeobject.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderUtilities\ShaderMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3DeeModel\vertex.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderUtilities\UniformType\GLSLUniformUI.h">
+      <Filter>Source Files\ShaderUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\ImpVector2.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\brick.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shaders\brick.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shaders\simpletex.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shaders\simpletex.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shaders\point_light.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shaders\point_light.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shaders\heathaze.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shaders\heathaze.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Utility\ImpVector2.inl">
+      <Filter>Header Files\Utility</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>
