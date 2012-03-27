@@ -23,6 +23,8 @@
 
 #include "Utility\ImpVector2.h"
 
+#include <iostream>
+
 Vector2<float> yay;
 
 int switchit = 0;
